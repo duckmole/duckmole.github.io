@@ -364,6 +364,7 @@ img {
 .paging .right {
   margin-left: 320px; }
 
-.post video { width: 478px;}
+.post video { width: 480px;}
+.post .video { width: 480px;}
 
 /*# sourceMappingURL=style.css.map */

@@ -2,11 +2,12 @@ title:       "Duckmole - #FF For Fun"
 description: "YAB: Yet Another Blog"
 url: "http://localhost:4000"
 baseurl: ""
-signoff:          Fabrice Nourisson
+author: "Fabrice Nourisson"
+signoff:          Fabrice
 disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
-facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
-google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 links:
+  - name:         /
+    url:          /
   - name:         About
     url:          /about
   - name:         GitHub

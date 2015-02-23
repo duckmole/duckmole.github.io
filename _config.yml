@@ -1,15 +1,13 @@
 name: "Duckmole - Another jekyll pages "
 description: "ServeBox - Technology Watch"
-
-author: "Fabrice Nourisson"
-
 url: "http://duckmole.github.io"
 baseurl: "http://duckmole.github.io"
-
-collections:
-- talks
-
+author: "Fabrice Nourisson"
+signoff:          Fabrice
+disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
 links:
+  - name:         /
+    url:          /
   - name:         About
     url:          /about
   - name:         GitHub

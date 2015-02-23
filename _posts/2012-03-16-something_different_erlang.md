@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "And now for something completely different - Erlang"
+title:  "Movie - And now for something completely different Erlang"
 date:   2012-03-16 19:00:15
-categories: talk
+categories: movie
 ---
 
 <video controls="controls" poster="/video/something_different_erlang.png">
