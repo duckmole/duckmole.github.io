@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Movie - And now for something completely different Erlang"
+title:  "And now for something completely different Erlang - movie"
 date:   2012-03-16 19:00:15
 categories: movie
 ---
