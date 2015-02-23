@@ -1,0 +1,11 @@
+name: "Duckmole - Another jekyll pages "
+description: "ServeBox - Technology Watch"
+
+author: "Fabrice Nourisson"
+
+url: "http://duckmole.github.io"
+baseurl: "http://duckmole.github.io"
+
+markdown: rdiscount
+permalink: :year/:month/:day/:title.html
+highlighter: true
