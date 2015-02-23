@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Homepage
 ---
 
@@ -7,8 +7,29 @@ title: Homepage
   <ul class="posts">
     {% for post in site.posts %}
       <li>
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <div>
+            <time datetime="{{ post.date | date_to_xmlschema }}" class="date">
+              {{ post.date | date_to_string }}
+            </time>-
+            {{ post.title }}
+          </div>
+        </a>
       </li>
     {% endfor %}
   </ul>
-</div>
+  Talks
+  <ul class="posts">
+    {% for post in site.talks %}
+      <li>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <div>
+            <time datetime="{{ post.date | date_to_xmlschema }}" class="date">
+              {{ post.date | date_to_string }}
+            </time>-
+            {{ post.title }}
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul></div>

@@ -1,6 +1,25 @@
+title:       "Duckmole - #FF For Fun"
+description: "YAB: Yet Another Blog"
 url: "http://localhost:4000"
 baseurl: ""
-
-markdown: rdiscount
-permalink: :year/:month/:day/:title.html
-highlighter: true
+signoff:          Fabrice Nourisson
+disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
+facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
+google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+links:
+  - name:         About
+    url:          /about
+  - name:         GitHub
+    url:          http://github.com/duckmole
+    external:     true
+  - name:         "@duckmole"
+    url:          http://twitter.com/duckmole
+    external:     true
+highlighter:      pygments
+permalink:        pretty
+markdown:         redcarpet
+redcarpet:
+  extensions:
+    - smart
+collections:
+  - talks

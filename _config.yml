@@ -6,6 +6,23 @@ author: "Fabrice Nourisson"
 url: "http://duckmole.github.io"
 baseurl: "http://duckmole.github.io"
 
-markdown: rdiscount
-permalink: :year/:month/:day/:title.html
-pygments: true
+collections:
+- talks
+
+links:
+  - name:         About
+    url:          /about
+  - name:         GitHub
+    url:          http://github.com/duckmole
+    external:     true
+  - name:         "@duckmole"
+    url:          http://twitter.com/duckmole
+    external:     true
+highlighter:      pygments
+permalink:        pretty
+markdown:         redcarpet
+redcarpet:
+  extensions:
+    - smart
+collections:
+  - talks
