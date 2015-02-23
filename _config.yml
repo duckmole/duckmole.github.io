@@ -8,4 +8,4 @@ baseurl: "http://duckmole.github.io"
 
 markdown: rdiscount
 permalink: :year/:month/:day/:title.html
-highlighter: true
+pygments: true
