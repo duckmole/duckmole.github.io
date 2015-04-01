@@ -1,0 +1,71 @@
+==================================================================
+https://keybase.io/duckmole
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://fabrice.nourisson-pytel.fr
+  * I am duckmole (https://keybase.io/duckmole) on keybase.
+  * I have a public key with fingerprint 1347 E0EB E52E 115A 01B9  B1CD 1572 0F3F D3B3 E067
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.7"
+        },
+        "key": {
+            "fingerprint": "1347e0ebe52e115a01b9b1cd15720f3fd3b3e067",
+            "host": "keybase.io",
+            "key_id": "15720F3FD3B3E067",
+            "uid": "b3e9b3524c692ac0f79310d95aafdf00",
+            "username": "duckmole"
+        },
+        "merkle_root": {
+            "ctime": 1427874156,
+            "hash": "1b083bf899c6e58a0da66b8e4b6e7cb09b2247df760c2cc3b21d7f8709674be48dc3480e9d34fcbbdf3a6d535d7452ca1b04c06dba19706aa37021c443b9f048",
+            "seqno": 187434
+        },
+        "service": {
+            "hostname": "fabrice.nourisson-pytel.fr",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1427874227,
+    "expire_in": 157680000,
+    "prev": "db6016db5c23f79873291f52240e5c17e1434d21fcf122fc73e7a8cd0ba0e4e3",
+    "seqno": 13,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owFVkrtrFUEUxje+SIQQU5jGiGFt4zKv3dm9IAGJQasUkpRe5nHm3jU3u+vs3phL
+iI0IQRsFK0mTPyBCCHYGBG18FILaidhaCRbWzsQrJFvtzv7Od77vnHkyfjIYnTxv
+J+Y+7//ojHz4KYOlCzv7G6Es9SBsbYSql0PR+LdCrELYCldgIEUNUV7OFKWG6E49
+M2RmwzWwdV4WjkIRj3i4OetxX2zyogO2srnXCjFlHBBIiAlgHAuEZSax0jjmBBlq
+NJUUUMKdZLesm2Ndw0PNdq69jucX6MI8vUav/+P7hz9ceSZpTJhKMiIUMjyjGOks
+FsJog5AHa7DDSLqvVlbLHni/q2BXetC2ZXkYWjW5RzAjPOUMx4lzJOqu7y1RSqVJ
+s0wlEKcCaZEkMgUmE+BKokwSwrg2PEGKKEUlwZqblKMs4UwCS7WiLEWQacqMklIb
+KhId01hzFhMlnD5TKNFS4IyjRAjKEcGKMSozg1jqItRwtyidOeeMsk3/bddyBd63
+H9swnRHSutOoKPs2r+uyuFINGuhFxjqJypZNqcqe47pNU7XCV06nGVS+8B7I9lCy
+LfNCuxUe3TF25PHxEMJnQ1ivcgvt3BMxT1LkHt8H1vykZYKwyxQrQt1OUk5Jhk3s
+JoUgVpgDdkk0wUYZTIhRnAIXqdJICgQM6JHQ1PkUHadZ551CNH3r1rd1+1QwORqc
+OX3CX+Lg7Ni5/zf7y8OR4ODqg8X+9vL0rz9j1fM332682Nz5fstW0wf3n73tLn3a
+Gwn23i8vTl18tz6+9TJqz398PPfo8m/z9OvrdPfm9qXWxO5f
+=Q6kb
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/duckmole
+
+==================================================================
