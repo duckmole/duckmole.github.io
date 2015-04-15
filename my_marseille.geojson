@@ -17,6 +17,40 @@
         "description": "<a href='http://www.mucem.org/'>Mucem</a>",
         "marker-symbol": "museum"
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#a83939",
+        "marker-size": "medium",
+        "name": "Fort Saint Jean",
+        "description": "<a href='http://www.mucem.org/fr/votre-visite/preparer-votre-visite/informations-pratiques/horaires-et-tarifs'>Horaire</a>",
+        "marker-symbol": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.361899435520172,
+          43.29568743834112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#a83939",
+        "marker-size": "medium",
+        "name": "Le caveau du Théatre",
+        "description": "",
+        "marker-symbol": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.365616977214812,
+          43.297608350269535
+        ]
+      }
     }
   ]
 }
