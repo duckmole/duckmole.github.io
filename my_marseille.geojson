@@ -2,9 +2,11 @@
   "type": "Feature",
   "geometry": {
     "type": "Point",
-    "coordinates": [125.6, 10.1]
+    "coordinates": [43.296939, 5.361135]
   },
   "properties": {
-    "name": "Dinagat Islands"
+    "name": "MUCEM",
+     "description": "http://www.mucem.org/",
+      "marker-symbol": "museum"
   }
 }
