@@ -32,4 +32,15 @@ title: Homepage
         </a>
       </li>
     {% endfor %}
-  </ul></div>
+  </ul>
+  <h2>Cartes</h2>
+  {% for post in site.pages %}
+  {% if post.layout == "maps" %}
+  <a href="{{ site.baseurl }}{{ post.url }}">
+    <div>
+      {{ post.title }}
+    </div>
+  </a>
+  {% endif %}
+  {% endfor %}
+</div>
