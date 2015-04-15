@@ -1,12 +1,22 @@
 {
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [5.361135, 43.296939]
-  },
-  "properties": {
-    "name": "MUCEM",
-     "description": "http://www.mucem.org/",
-      "marker-symbol": "museum"
-  }
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.361135,
+          43.296939
+        ]
+      },
+      "properties": {
+        "marker-color": "#a83939",
+        "marker-size": "medium",
+        "name": "MUCEM",
+        "description": "<a href='http://www.mucem.org/'>Mucem</a>",
+        "marker-symbol": "museum"
+      }
+    }
+  ]
 }
