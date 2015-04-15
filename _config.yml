@@ -1,7 +1,7 @@
-name: "Duckmole - Another jekyll pages "
-description: "ServeBox - Technology Watch"
-url: "http://duckmole.github.io"
-baseurl: "http://duckmole.github.io"
+name:       "Duckmole - #FF For Fun"
+description: "YAB: Yet Another Blog"
+url: "http://fabrice.nourisson-pytel.fr"
+baseurl: "http://fabrice.nourisson-pytel.fr"
 author: "Fabrice Nourisson"
 signoff:          Fabrice
 disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
