@@ -6,27 +6,19 @@ I hereby claim:
 
   * I am an admin of http://fabrice.nourisson-pytel.fr
   * I am duckmole (https://keybase.io/duckmole) on keybase.
-  * I have a public key with fingerprint 1347 E0EB E52E 115A 01B9  B1CD 1572 0F3F D3B3 E067
+  * I have a public key with fingerprint 9B79 A175 A62E F97D EE2D  17B8 7F67 39EE 026E 8940
 
 To do so, I am signing this object:
 
 {
     "body": {
-        "client": {
-            "name": "keybase.io node.js client",
-            "version": "0.7.7"
-        },
         "key": {
-            "fingerprint": "1347e0ebe52e115a01b9b1cd15720f3fd3b3e067",
+            "fingerprint": "9b79a175a62ef97dee2d17b87f6739ee026e8940",
             "host": "keybase.io",
-            "key_id": "15720F3FD3B3E067",
+            "key_id": "7f6739ee026e8940",
+            "kid": "01012fad3aa2efa0d61c65494c7ef993b3740cfbd863785b1d3d2fa623138a7cdd410a",
             "uid": "b3e9b3524c692ac0f79310d95aafdf00",
             "username": "duckmole"
-        },
-        "merkle_root": {
-            "ctime": 1427874156,
-            "hash": "1b083bf899c6e58a0da66b8e4b6e7cb09b2247df760c2cc3b21d7f8709674be48dc3480e9d34fcbbdf3a6d535d7452ca1b04c06dba19706aa37021c443b9f048",
-            "seqno": 187434
         },
         "service": {
             "hostname": "fabrice.nourisson-pytel.fr",
@@ -35,32 +27,41 @@ To do so, I am signing this object:
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1427874227,
+    "ctime": 1442243158,
     "expire_in": 157680000,
-    "prev": "db6016db5c23f79873291f52240e5c17e1434d21fcf122fc73e7a8cd0ba0e4e3",
-    "seqno": 13,
+    "prev": "72f911f987bdf2da94fdb5a0da305c3f5cb20e2ea35dfe49c8b4fe013aa50d38",
+    "seqno": 22,
     "tag": "signature"
 }
 
 which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: GnuPG v2
+Version: GnuPG v1
 
-owFVkrtrFUEUxje+SIQQU5jGiGFt4zKv3dm9IAGJQasUkpRe5nHm3jU3u+vs3phL
-iI0IQRsFK0mTPyBCCHYGBG18FILaidhaCRbWzsQrJFvtzv7Od77vnHkyfjIYnTxv
-J+Y+7//ojHz4KYOlCzv7G6Es9SBsbYSql0PR+LdCrELYCldgIEUNUV7OFKWG6E49
-M2RmwzWwdV4WjkIRj3i4OetxX2zyogO2srnXCjFlHBBIiAlgHAuEZSax0jjmBBlq
-NJUUUMKdZLesm2Ndw0PNdq69jucX6MI8vUav/+P7hz9ceSZpTJhKMiIUMjyjGOks
-FsJog5AHa7DDSLqvVlbLHni/q2BXetC2ZXkYWjW5RzAjPOUMx4lzJOqu7y1RSqVJ
-s0wlEKcCaZEkMgUmE+BKokwSwrg2PEGKKEUlwZqblKMs4UwCS7WiLEWQacqMklIb
-KhId01hzFhMlnD5TKNFS4IyjRAjKEcGKMSozg1jqItRwtyidOeeMsk3/bddyBd63
-H9swnRHSutOoKPs2r+uyuFINGuhFxjqJypZNqcqe47pNU7XCV06nGVS+8B7I9lCy
-LfNCuxUe3TF25PHxEMJnQ1ivcgvt3BMxT1LkHt8H1vykZYKwyxQrQt1OUk5Jhk3s
-JoUgVpgDdkk0wUYZTIhRnAIXqdJICgQM6JHQ1PkUHadZ551CNH3r1rd1+1QwORqc
-OX3CX+Lg7Ni5/zf7y8OR4ODqg8X+9vL0rz9j1fM332682Nz5fstW0wf3n73tLn3a
-Gwn23i8vTl18tz6+9TJqz398PPfo8m/z9OvrdPfm9qXWxO5f
-=Q6kb
+owFtUn1MVWUchnuNIfK5aroRLk+tVbvQ+bznnIsps4EpDluIU1rQ+57zHjhcOOdy
+7odcL41IqOhDNHBJ0JAvJSK4stRM5voQm9BQyBqKQ8sPVG4gmjo3od7D7L/ef969
+z/v8nuf3e/bbFWMNs4RXFIjTFq0mLXzoBgzLufdnboCAuuwnHAHCiRYuRdUKkOEy
+VM1DOAgR8iKgeA7YaaSIvIwQLVM8FHjFzjMiQiRtR4LIkoSNKNTdZgWWgcCNUlQd
+Y/iRr8oY/R++c+GDpEiKVoDMAIAdACnbKcnOsSIr8dhQZCDDs6SkQFmwM7zAQUpm
+ZMy30wzFCICXZJmlSIDlvAtykEEiZDialewiDSRS4UWGImWRA0CRFdL09bqRoYES
+hNmyV3KW6MWIeNtGYNSnSsiMwJzkEUMB0MBoiqZ7DdXt1rVkl9+DilMUAyu5DN2j
+S3ox5hV6PC6HKePxu8y6bQjmP1LMh6om41BxgQ8ZblXXCAeFmZJHNS0olqVplqE4
+wUagMpdqoHzVZHC8XSDxMW2Qz4yQVkSKUkSBh7JCy0BkFRlyODHAkJzEKJwEaRLR
+CDCcrCBWlATIKoikcLIcKTMCYc5YqumEg6ZxnyC+AIu61QINeLwGjiCqxvLUorBw
+S1jEYxZzM8KiFsf/ty7f/hQ3L1bOoba/fljdVTi3yhpC6ZG/1Z+7teTLfVJ7dqzh
++iI45EuvbBgY60tqv501WG6pfT5zz74ENmPs2Scrs0trVhcdCQYu/xh1cfmdS63j
+9Z8G3guLEBLb3MuOzsPpr69uXDs1dlNJs1ZlanMvhSYjg4URZ/Z0NXf4Nu/fGLt3
+8sil6z0ncnvTRp7LcE74Xt7f5PyECb2eseJAm3Th41c7Z9vfOVHRqEem35xnSx9e
+MCK2Dm6FySsDZOvvb6o3PnBCS2zW2Wl//r0lyTNl6nxplTDbc/5ArP6r7eqD6zuX
+tq61B4yT/ZEPm28lPt1obLB0rzRCI0W2JFuMhXywSbnYsC1Q15OzHvQb23dEh3du
+cgzGwcjt49XvRvMrvupitRfEPrB+NKXHllnf/xpzfHNoV+iMBKv7vLUtT6Q2ve+9
+lv33qqpn7o5bKyyLy7U/0tbd6To37Bra8kZtVJL1+0WJo3FOoWS6/fQrt1sYtCVZ
+zrOpZXX+uonjo92pH53Ou1I1EWtUdweMRmr40P2lrpmh5QM7A8cmL5fmDv5z+FAv
+nLjCtcSwGY+zWTPfTHp3FHUsywle6wwePhYT9HxHJnTsHjq1t2SupX7N5wN3z8Y3
+R8HUhHLZf2oOpA2HpteNuKwV/sro7hbuw6nao03Bgz9XThX2fjab98t99vxbJ9co
+B1/c0NbQ/y8=
+=+mcA
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
