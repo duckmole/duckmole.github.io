@@ -1,0 +1,22 @@
+.red {
+    color: red;
+    font-weight: bold !important;
+}
+.green {
+    color: green;
+    font-weight: bold !important;
+}
+.aqua {
+    color: aqua;
+    font-weight: bold !important;
+}
+.bold {
+    font-weight: bold !important;
+}
+.second.list {
+    list-style-type: lower-latin;
+    font-size: 0.7em;
+}
+.long.list {
+    font-size: 0.8em;
+}

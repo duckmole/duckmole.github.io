@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="fr">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Code Retreat</title>
+
+		<meta name="description" content="Code retreat du 30 septembre 2017">
+		<meta name="author" content="Fabrice Nourisson">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="css/zenburn.css">
+		<link rel="stylesheet" href="css/code_retreat.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+
+			<div class="slides">
+				<section>
+					<h1>Code Retreat</h1>
+					<h2>30 septembre 2017</h2>
+					<p>
+						<small>Fabrice Nourisson / <a href="http://twitter.com/duckmole">@duckmole</a> (un développeur hédoniste)</small>
+					</p>
+				</section>
+
+        <section>
+          <section>
+					  <h2>Planning</h2>
+          </section>
+          <section>
+            <h3>Matin 9h30-12h30</h3>
+            <p>3 sessions d'une 1h (45min de code / 15min de rétro)</p>
+            <h3>Repas 12h30-14h</h3>
+            <h3>Après-midi 14h-16h</h3>
+            <p>2 sessions d'une 1h -(45min de code / 15min de rétro)</p>
+            <h3>Extra si vous êtes courageux</h3>
+            <h3>Une rétro de fin</h3>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>Objectifs</h2>
+            <p>Apprendre à écrire du meilleur code</p>
+          </section>
+          <section>
+            <h2>Objectifs</h2>
+            <p>Apprendre à écrire du meilleur code</p>
+            <ul>
+              <li>Caractéristiques du 'bon' code</li>
+              <li>Réduire le coût du changement</li>
+              <li>Apprendre à utiliser ses outils</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Objectifs</h2>
+            <h3>Respecter les 4 commandements (XP)</h3>
+            <ul>
+              <li>Tous les tests passent</li>
+              <li>Clair, Expressif, Consistant</li>
+              <li>Pas de duplication - DRY</li>
+              <li>Nombre minimal de méthodes, classes et modules - YAGNI</li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <h2>Les Sessions</h2>
+          <ul>
+            <li>Coder pendant 45min avec des contraintes</li>
+            <li>On détruit son code et on se lève</li>
+            <li>On fait une petite rétro</li>
+            <li>On change les binômes</li>
+          </ul>
+          <p>On fait ça 5 (6) fois dans la journée</p>
+        </section>
+        <section>
+          <section>
+            <h2>Jeux de la vie (Conway)</h2>
+            <p>Univers en 2 dimensions</p>
+            <p>L'état initial est appelé seed</p>
+            <p>Les règles suivantes sont appliquées simultanément</p>
+            <ol>
+              <li> vivante avec < 2 voisines vivante meure</li>
+              <li>Ȼ vivante avec 2 ou 3 voisines vivantes reste vivante</li>
+              <li>Ȼ vivante avec > 3 voisines meure</li>
+              <li>Ȼ morte avec 3 voisines vivantes devient vivante</li>
+            </ol>
+          </section>
+          <section>
+            <h2>Jeux de la vie (Conway)</h2>
+            <img src="images/Gospers_glider_gun.gif">
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>1 - Échauffement</h2>
+            <h2>Solution Seeker</h2>
+            <p>Start your session by finding possible angles of solving the problem</p>
+            <p>You need at least three different solutions before starting</p>
+            <p>Make an analysis which of the solutions is better</p>
+            <p>Start only after you have an hypothesis why one solution is better</p>
+          </section>
+          <section>
+            <h2>DELETE YOUR CODE</h2>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>2 - No Loops, No Conditional</h2>
+            <h2>En anglais please !</h2>
+          </section>
+          <section>
+            <h2>DELETE YOUR CODE</h2>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>3 - Baby Step</h2>
+            <ol>
+              <li>Setup source control repository.</li>
+              <li>Setup a timer for 2 minutes interval when you start.</li>
+              <li><span class="aqua">Write exactly one test</span>. If the:
+                <ol class="second list">
+                  <li><span class="bold">timer rings</span> and the <span class="red">test is red</span> then <span class="red">revert</span> and <span class="bold">start over.</span></li>
+                  <li><span class="green">test is green</span> before timer rings then <span class="green">commit.</li>
+                </ol>
+              </li>
+              <li>Restart timer (no discussions in between timers)</li>
+              <li><span class="aqua">Refactor</span>. If the:
+                <ol class="second list">
+                  <li><span class="bold">timer rings</span> and the <span class="red">refactoring is not complete</span> then <span class="red">revert and <span class="bold">start over.</span></li>
+                  <li><span class="green">refactoring is complete</span> before the timer rings then <span class="green">commit</span>.</li>
+                </ol>
+              <li>Restart the timer (no discussions in between timers)</li>
+              <li>Go to 3.</li>
+            </ol>
+          </section>
+          <section>
+            <h2>DELETE YOUR CODE</h2>
+          </section>
+        </section>
+        <section>
+          <h2>On revient tout à l'heure</h2>
+        </section>
+        <section>
+          <section>
+            <h2>4 - Ping Pong muet</h2>
+          </section>
+          <section>
+            <h2>DELETE YOUR CODE</h2>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>5 - Object calisthenics</h2>
+            <ul class="long list">
+              <li>Use only one level of indentation per method</li>
+              <li>Don’t use the else keyword</li>
+              <li>Wrap all primitives and strings</li>
+              <li>Use only one dot per line</li>
+              <li>Don’t abbreviate</li>
+              <li>Keep all entities small</li>
+              <li>Don’t use any classes with more than two instance variables</li>
+              <li>Use first-class collections</li>
+              <li>Don’t use any getters / setters / properties</li>
+            </ul>
+
+          </section>
+          <section>
+            <h2>DELETE YOUR CODE</h2>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>6 - Functional Javascript</h2>
+          </section>
+          <section>
+            <h2>6 - Functional Javascript</h2>
+            <p>Exemple de tests possibles</p>
+            <pre><code data-trim data-noescape>
+w = world(10, 10);
+assert(w.cells().length == 100);
+            </code></pre>
+            <pre><code data-trim data-noescape>
+w.set([5,5], true);
+assert(w.alive([5,5]));
+            </code></pre>
+            <pre><code data-trim data-noescape>
+assert(point_lives_next_gen(true, 2));
+assert(point_lives_next_gen(false, 3));
+            </code></pre>
+          </section>
+          <section>
+            <h2>DELETE YOUR CODE</h2>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>6 - Conway’s Game of Life - Hex</h2>
+            <h2>Solution Seeker</h2>
+            <div style="display:flex;flex-direction:row;align-items:center;justify-content:center;">
+              <div style="font-size:0.5em;">
+                <p>There are six 1st tier neighbors<br/>
+                  There are six 2nd tier neighbors<br/>
+                  Live 1st tier neighbors weight 1.0<br/>
+                  Live 2nd tier neighbors weight 0.3<br/>
+                  Each cell has a weighted sum of all its 12 neighbors</p>
+              </div>
+              <div>
+                <img src="images/conways-hex.gif">
+              </div>
+            </div>
+            <ol>
+              <li><span class="green">live cell</span> having less than <span class="bold">2.0 sum</span> <span class="red">dies</span></li>
+              <li><span class="green">live cell</span> having <span class="bold">2.0 - 3.3</span> <span class="green">lives on</span></li>
+              <li><span class="green">live cell</span> having more than <span class="bold">3.3</span> <span class="red">dies</span></li>
+              <li><span class="red">dead cell</span> having <span class="bold">2.3 - 2.9</span> becomes <span class="green">alive</span></li>
+            </ol>
+          </section>
+          <section>
+            <h2>DELETE YOUR CODE</h2>
+          </section>
+        </section>
+
+			</div>
+
+		</div>
+
+		<script src="js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
+
+
+
+Favor stupid code and smart data structures
+All your functions are small: 3-4 statements
+Classes, if you have any, have 4-5 functions
+Your classes contain no data, only logic
+Functions accept only data structures
+All the primitives are encapsulated
+
+
+Coding smells:
+Lack of tests
+Feature envy
+Name not from domain
+Method too long (> 6 lines)
+Name not expressing intent
+Too many parameters (> 3)
+Unnecessary if
+Test – not unitary
+Unnecessary else
+Test – setup too complex
+Duplication of constant
+Test – unclear Act
+Method does more than one thing
+Test - more than one assert
+Primitive obsession
+Test – no assert
+Test – too many paths
+
+    Single Responsibility Principle
+A method has more functionalities add all in the method’s name with use or/and to separate them
+The method name has and/or then split the method
+No conditionals: if, switch, etc
+No try/catch
+Exactly one assert per test
+Test one behaviour per test
+
+No naked primitives
